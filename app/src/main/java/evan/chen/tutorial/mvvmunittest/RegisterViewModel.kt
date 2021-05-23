@@ -22,7 +22,7 @@ class RegisterViewModel(private val repository: IRegisterRepository) : ViewModel
 //            alertText.value = Event("帳號至少要6碼，第1碼為英文")
         } else if (!isPwdOK) {
             // 註冊失敗，資料填寫錯誤
-            alertText.value = Event("密碼至少要8碼，第1碼為英文，並包含1碼數字")
+//            alertText.value = Event("密碼至少要8碼，第1碼為英文，並包含1碼數字")
 
         } else {
             //設定為「載入中」
